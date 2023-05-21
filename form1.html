@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simple form</title>
+    <link rel="stylesheet" href="forms1.css">
+</head>
+<body>
+    <h1>Login</h1>
+  <div>
+        <input type="text"placeholder="Name" id="name" name="firstname">
+        <input type="email"placeholder="email"id="email" name="email">
+        <input type="password"placeholder="Password" id="pwd" name="lastname">
+      
+      
+    </div>
+    <button onclick="func()">Login</button>
+   
+  <script>
+
+    function  func(){
+    var email=document.getElementById("email").value;
+    var pwd=document.getElementById("pwd").value;
+   if(!email && !pwd)
+   {
+     alert("Invalid Data or Fill Details")
+   }
+   else{
+        alert("success")
+        window.location.assign("Movie_API.html");
+   }
+   
+}
+
+    </script>
+</body>
+</html>

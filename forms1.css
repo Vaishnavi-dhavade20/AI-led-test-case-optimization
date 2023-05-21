@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(63, 66, 66, 0.144);
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 143, 218);
+    font-size: 40px;
+}
+form{
+    margin: 20px auto;
+    width: 320px;
+    /* color: cornsilk; */
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="text"]{
+    display: block;
+   margin-bottom: 25px;
+   width: 200px;
+   border: 2px solid steelblue;
+   /* background: wheat; */
+}
+input[type="email"]{
+    display: block;
+   margin-bottom: 25px;
+   width: 200px;
+   border: 2px solid steelblue;
+   /* background: wheat; */
+}
+input[type="password"]{
+    display: block;
+   margin-bottom: 25px;
+   width: 200px;
+   border: 2px solid steelblue;
+   /* background: wheat; */
+}
+input[type="radio"]{
+    margin: 0 8px 25px 18px;
+}
+input[type="submit"]{
+    width: 344px;
+    height: 45px;
+    background-color: tomato;
+    color: white;
+}
+input:focus{
+    background: white;
+}
+input[type="submit"]:focus{
+    width: 344px;
+    height: 45px;
+    background-color:white;
+    color: white;}
+    .level2{
+        color: black;
+    }
+    button{
+         margin-left: 15rem;
+        color: black;
+        border: 1px solid black;
+        width: 50%;
+        padding: 20px;
+    }
